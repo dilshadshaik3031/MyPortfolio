@@ -1,0 +1,62 @@
+/* ---------------------
+   Typography adjustments
+   --------------------- */
+:root {
+  --heading-color: #ffffff;
+  --muted-color: rgba(242,242,245,0.82);
+}
+
+/* Bigger H1 for pages */
+h1, .page-title {
+  font-size: 3rem;     /* 48px */
+  line-height: 1.05;
+  color: var(--heading-color);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 0 0 0.6rem 0;
+}
+
+/* Section subtitles */
+h2, .page-subtitle {
+  font-size: 1.05rem;
+  color: var(--muted-color);
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+/* paragraph default for readability */
+p, .lead {
+  color: rgba(242,242,245,0.82);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Larger container padding on big screens */
+section > .max-w-7xl {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Ensure card text contrast */
+.card-dark, .bg-card {
+  color: #f3f4f6;
+}
+
+/* Make nav links slightly bigger */
+nav a { font-size: 0.95rem; }
+/* Avatar hex svg styling */
+.avatar-hex {
+  display: block;
+  border-radius: 14px;         /* keeps a subtle rounded appearance around the svg canvas */
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  transition: transform 240ms ease, filter 240ms ease;
+  will-change: transform;
+  overflow: visible;
+}
+
+/* subtle hover scale */
+.avatar-hex:hover {
+  transform: translateY(-6px) scale(1.02);
+  filter: saturate(1.05) contrast(1.03);
+}
