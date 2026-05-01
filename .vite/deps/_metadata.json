@@ -1,8 +1,49 @@
 {
-  "hash": "31949323",
-  "configHash": "5747d266",
-  "lockfileHash": "8f439c8a",
-  "browserHash": "70fcd726",
-  "optimized": {},
-  "chunks": {}
+  "hash": "2252ded4",
+  "configHash": "34a7340a",
+  "lockfileHash": "f51cc859",
+  "browserHash": "0fa39ee8",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "7e5adcf5",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c3a48bcc",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "4e392872",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "2fd792cb",
+      "needsInterop": false
+    },
+    "emailjs-com": {
+      "src": "../../node_modules/emailjs-com/es/index.js",
+      "file": "emailjs-com.js",
+      "fileHash": "af1580be",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-ERLRPAAT": {
+      "file": "chunk-ERLRPAAT.js"
+    },
+    "chunk-PAMVEWRW": {
+      "file": "chunk-PAMVEWRW.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
 }
