@@ -1,23 +1,25 @@
 const EXP = [
   {
     company: "Auburn University at Montgomery",
-    role: "IT Support Assistant",
-    time: "Jan 2025 – Present · USA",
+    role: "IT Support & Systems Engineer",
+    time: "Jan 2025 – Present · Montgomery, AL",
     bullets: [
-      "Provide Tier-1 support for hardware, software, networking, and AV setups.",
-      "Manage incidents and SLAs using ServiceNow; create and maintain KB docs.",
-      "Collaborate with senior IT to monitor services and optimize operations.",
+      "Manage Linux and Windows systems, network devices, and distributed IT infrastructure with high system uptime.",
+      "Support 100+ users across AWS cloud services and enterprise software environments using ServiceNow.",
+      "Automate repetitive operational tasks using Python and Bash scripting while troubleshooting cloud and on-prem infrastructure issues.",
     ],
   },
+
   {
-    company: "Cognizant Technology Solutions (Client: KeyBank)",
-    role: "Software Engineer",
-    time: "Sep 2021 – Jul 2024 · India",
+    company: "Cognizant Technology Solutions",
+    role: "Software Engineer — Banking & Financial Services",
+    time: "Sep 2021 – Jul 2024 · Hyderabad, India",
     bullets: [
-      "Built backend Java services for banking transactions and account services.",
-      "Optimized batch workflows (~30% faster) and automated releases with CI/CD & XLR.",
-      "Wrote complex SQL for analysis/reporting and handled RCA via ServiceNow.",
+      "Developed Java Spring Boot microservices and REST APIs for large-scale banking applications in distributed cloud-native environments.",
+      "Built and maintained CI/CD pipelines using Jenkins, Git, and XLR while supporting zero-downtime deployments.",
+      "Worked with Docker, Kubernetes, SQL databases, and root-cause analysis to improve system reliability and production stability.",
     ],
   },
 ]
+
 export default EXP

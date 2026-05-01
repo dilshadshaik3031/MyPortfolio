@@ -1,25 +1,32 @@
 const PROJECTS = [
   {
-    title: "Bug Tracker",
-    tags: ["Java", "Spring Boot", "React", "MySQL", "JWT"],
-    description: "Production-style issue tracking with projects, roles, Kanban board, and cloud deployment.",
-    repo: "https://github.com/dilshadshaik3031/bug-tracker",
+    title: "Bob MCP Forge — IBM Bob Hackathon 2026",
+    tags: ["Python", "LLM", "IBM Cloud", "REST APIs", "AI"],
+    description:
+      "AI-powered MCP server generator that creates secure, compliance-checked production-ready MCP servers from natural language prompts using LLMs and IBM Cloud infrastructure.",
+    repo: "https://github.com/bob-mcp-forge/bob-mcp-forge",
     live: "",
   },
-  {
-    title: "Heart Disease Prediction",
-    tags: ["Python", "FastAPI", "ML", "AI", "React"],
-    description: "AI-powered system that analyzes medical attributes to predict heart disease risk with high accuracy. Includes model training, evaluation, and explainability.",
-    repo: "https://github.com/dilshadshaik3031/heart-disease-prediction",
-    live: "",
-  },
+
   {
     title: "Cloud Expense Tracker",
-    tags: ["React", "Node/Spring", "AWS S3", "SES", "CI/CD"],
-    description: "Multi-user expense tracking with S3 receipt uploads, email alerts, and CSV export.",
+    tags: ["React", "Node.js", "AWS", "IBM Cloud", "MongoDB"],
+    description:
+      "Full-stack cloud-native expense management application with analytics dashboards, secure authentication, real-time tracking, and cloud deployment.",
     repo: "https://github.com/dilshadshaik3031/cloud-expense-tracker",
     live: "",
   },
+
+  {
+    title: "PCOD FemCare — AI Doctor",
+    tags: ["Python", "AI/ML", "React", "Node.js", "MongoDB"],
+    description:
+      "AI-powered healthcare application for PCOD risk prediction using machine learning models and an interactive frontend interface for health assessment and recommendations.",
+    repo: "https://github.com/dilshadshaik3031/pcod-fem-care",
+    live: "",
+  },
+
+
   {
     title: "Student Management System",
     tags: ["Java", "JDBC", "Swing"],
@@ -27,6 +34,7 @@ const PROJECTS = [
     repo: "https://github.com/dilshadshaik3031/student-management-system",
     live: "",
   },
+
   {
     title: "Product Review Sentiment Analysis",
     tags: ["Python", "NLP", "scikit-learn"],
@@ -34,6 +42,7 @@ const PROJECTS = [
     repo: "https://github.com/dilshadshaik3031/sentiment-analysis",
     live: "",
   },
+
   {
     title: "Secure Transaction (Cybersecurity)",
     tags: ["Security", "Encryption", "Networking"],
@@ -42,4 +51,5 @@ const PROJECTS = [
     live: "",
   },
 ]
+
 export default PROJECTS

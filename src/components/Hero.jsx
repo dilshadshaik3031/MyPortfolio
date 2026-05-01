@@ -25,7 +25,7 @@ export default function Hero() {
               </motion.h1>
 
               <p className="mt-4 text-white/80 text-lg max-w-xl">
-                Software Developer — Java • Web • Cloud • ML. I build secure, scalable and intelligent applications.
+              Software Engineer with experience in cloud-native applications, AI/ML systems, and scalable full-stack development using Java, React, Node.js, Spring Boot, AWS, and IBM Cloud.
               </p>
 
               <div className="mt-6 flex flex-wrap gap-3">
@@ -33,7 +33,7 @@ export default function Hero() {
                   Contact Me
                 </Button>
 
-                <Button variant="ghost" href="/dil-resume.pdf" download>
+                <Button variant="ghost" href="/dil-resume.docx" download>
                   Download Resume
                 </Button>
               </div>

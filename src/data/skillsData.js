@@ -1,9 +1,69 @@
 const SKILLS = {
-  Languages: ["Java", "SQL", "Python", "C", "C++"],
-  Frameworks: ["Spring Boot", "Bootstrap", "React"],
-  Databases: ["Microsoft SQL Server", "MySQL"],
-  "Cloud & Tools": ["AWS (EC2, S3, IAM)", "Terraform (basic)", "Git", "CI/CD"],
-  Tools: ["ServiceNow", "JIRA", "Excel (advanced)"],
-  Other: ["Cybersecurity", "Machine Learning", "DSA"],
+  Languages: [
+    "Java",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "SQL",
+    "C",
+    "C++"
+  ],
+
+  Frontend: [
+    "React",
+    "HTML",
+    "CSS",
+    "Bootstrap"
+  ],
+
+  Backend: [
+    "Spring Boot",
+    "Node.js",
+    "Express.js",
+    "REST APIs"
+  ],
+
+  AI_ML: [
+    "Machine Learning",
+    "Scikit-learn",
+    "Pandas",
+    "Matplotlib",
+    "LLMs",
+    "NLP"
+  ],
+
+  Databases: [
+    "MongoDB",
+    "MySQL",
+    "PostgreSQL",
+    "Microsoft SQL Server"
+  ],
+
+  Cloud_DevOps: [
+    "AWS",
+    "IBM Cloud",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "CI/CD",
+    "Git",
+    "GitHub"
+  ],
+
+  Tools: [
+    "ServiceNow",
+    "JIRA",
+    "Excel"
+  ],
+
+  Concepts: [
+    "Microservices",
+    "Distributed Systems",
+    "Agile/Scrum",
+    "Cybersecurity",
+    "OOP",
+    "System Design"
+  ]
 }
+
 export default SKILLS
